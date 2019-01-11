@@ -1,7 +1,7 @@
 require "tempfile"
 
 require_relative "../../../../lib/vagrant/util/presence"
-require_relative "../../../../lib/vagrant/util/template_renderer"
+require "vagrant/util/template_renderer"
 
 require_relative "../installer"
 
