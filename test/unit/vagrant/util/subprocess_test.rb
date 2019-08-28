@@ -124,7 +124,7 @@ describe Vagrant::Util::Subprocess do
       end
     end
 
-    it "should return true when subprocess is running" do
+    xit "should return true when subprocess is running" do
       sleep_test_commands.each do |sp|
         thread = Thread.new{ sp.execute }
         sleep(0.3)
@@ -155,7 +155,7 @@ describe Vagrant::Util::Subprocess do
     end
 
     context "when subprocess is running" do
-      it "should return true" do
+      xit "should return true" do
         sleep_test_commands.each do |sp|
           thread = Thread.new{ sp.execute }
           sleep(0.1)
